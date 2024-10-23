@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", sans-serif;
+  font-weight: bold;
+}
+/* start navbar */
+.text-muted {
+  color: #6c757d !important;
+}
+.nav a:hover {
+  color: #0056b3;
+}
+a:hover {
+  text-decoration: underline;
+}
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+pre {
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+}
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+}
+.text-muted {
+  color: #6c757d !important;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+/* end navbar */
+
+/* start blog-post */
+.blog-post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+.blog-post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+/* end blog-post */
+
+/* start jumbotron */
+.jumbotron h1 {
+  font-weight: ;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+/* end jumbotron */
+/* cards */
+.text-success {
+  color: #28a745 !important;
+}
+/* pagination  */
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+.blog-pagination {
+  margin: 4rem 0;
+}
+
+/* footer */
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #e5e5e5;
+}
+
+/* media query  */
+
+/* navbar & header  */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
